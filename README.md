@@ -35,11 +35,11 @@ Always ensure your local repository is up to date and manage your changes effici
     ```
     - Pushes your committed changes to the remote repository.
 
-## Best Practices
+### Best Practices
 - **Commit Often:** Small, frequent commits help track changes and resolve conflicts more easily.
 - **Descriptive Messages:** Write clear, concise commit messages to describe the changes made.
 - **Pull Regularly:** To minimize conflicts, regularly update your local repository with the latest changes from the main branch.
 
-## Need Help?
+### Need Help?
 - For a comprehensive guide on Git commands and best practices, check out [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials).
 - If you're stuck or have questions, don't hesitate to reach out to the team.
