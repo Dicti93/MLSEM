@@ -1,5 +1,14 @@
 # MLSEM - Machine Learning Seminar
 
+### Installing Git
+If you do not have Git installed on your computer, you'll need to install it to interact with this repository. For installation instructions, visit the [official Git download page](https://git-scm.com/downloads).
+
+### Cloning the Repository
+To work with the files in this repository locally on your computer, you need to clone the repository. Use the following command to clone it:
+
+```bash
+git clone https://github.com/Dicti93/MLSEM.git
+```
 
 ## Working with Git
 For a comprehensive guide on Git commands and best practices, check out [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials). If you're stuck or have questions, don't hesitate to reach out. Always ensure your local repository is up to date and manage your changes efficiently using the following commands:
