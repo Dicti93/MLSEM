@@ -6,7 +6,7 @@ Always ensure your local repository is up to date and manage your changes effici
 
 1. **Update Your Local Repository**
     ```bash
-    git pull origin main
+    git pull origin master
     ```
     - `main` is our default branch. Replace with another branch name if needed.
     - **IMPORTANT:** Always run this before starting work to ensure you have the latest changes.
