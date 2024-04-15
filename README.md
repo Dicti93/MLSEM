@@ -1,5 +1,4 @@
-# MLSEM
-# Machine Learning Seminar
+# MLSEM - Machine Learning Seminar
 
 
 ## Working with Git
