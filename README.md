@@ -1,9 +1,9 @@
 # MLSEM - Machine Learning Seminar
 
-### Installing Git
+## Installing Git
 If you do not have Git installed on your computer, you'll need to install it to interact with this repository. For installation instructions, visit the [official Git download page](https://git-scm.com/downloads).
 
-### Cloning the Repository
+## Cloning the Repository
 To work with the files in this repository locally on your computer, you need to clone the repository. Use the following command to clone it:
 
 ```bash
