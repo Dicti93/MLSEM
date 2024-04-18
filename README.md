@@ -1,5 +1,3 @@
-#Test
-
 # MLSEM - Machine Learning Seminar
 
 ## Installing Git
