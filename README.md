@@ -1,50 +1,38 @@
-# MLSEM - Machine Learning Seminar
+# Seminar Machine Learning in Applied Settings
 
-## Installing Git
-If you do not have Git installed on your computer, you'll need to install it to interact with this repository. For installation instructions, visit the [official Git download page](https://git-scm.com/downloads).
+This repository contains the seminar project on appendicitis classification. All scripts should be executed in Google Colab.
 
-## Cloning the Repository
-To work with the files in this repository locally on your computer, you need to clone the repository. Use the following command to clone it:
+## Folder Structure and Contents
 
-```bash
-git clone https://github.com/Dicti93/MLSEM.git
-```
+### Seminar Introduction Files
+- **Introduction.ipynb**: Introduction to the seminar.
+- **Seminar_Schedule.pdf**: Seminar schedule.
 
-## Working with Git
-For a comprehensive guide on Git commands and best practices, check out [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials). If you're stuck or have questions, don't hesitate to reach out. Always ensure your local repository is up to date and manage your changes efficiently using the following commands:
+### Data and Description
+- **data.csv**: Dataset for appendicitis classification.
+- **data_description.xlsx**: Description of the data fields.
 
-1. **Update Your Local Repository**
-    ```bash
-    git pull origin master
-    ```
-    - `main` is our default branch. Replace with another branch name if needed.
-    - **IMPORTANT:** Always run this before starting work to ensure you have the latest changes.
+### Data Preparation
+- **data_cleaning.ipynb**: Script for data cleaning.
+- **feature_engineering.ipynb**: Script for feature engineering.
 
-2. **Check Status**
-    ```bash
-    git status
-    ```
-    - Use this to see if there are any changes or files ready to be committed.
+### EDA (Exploratory Data Analysis)
+- **eda_visualization.ipynb**: Visualizations for data exploration.
+- **correlation_analysis.ipynb**: Correlation analysis of the data.
 
-3. **Stage Changes**
-    ```bash
-    git add .
-    ```
-    - Adds all modified and new files to the staging area, preparing them for commit.
+### Modelling
+- **linear_regression.ipynb**: Implementation of linear regression.
+- **decision_tree.ipynb**: Implementation of a decision tree.
+- **random_forest.ipynb**: Implementation of a random forest.
 
-4. **Commit Changes**
-    ```bash
-    git commit -m "Brief description of changes"
-    ```
-    - Snapshot your changes locally. Replace the text within quotes with a short, descriptive message of what you've done.
+### CNN (Convolutional Neural Networks)
+- **cnn_intro.ipynb**: Introduction to CNNs.
+- **cnn_model.ipynb**: Implementation of a CNN model.
 
-5. **Upload Changes**
-    ```bash
-    git push
-    ```
-    - Pushes your committed changes to the remote repository.
+## Usage Instructions
 
-### Best Practices
-- **Commit Often:** Small, frequent commits help track changes and resolve conflicts more easily.
-- **Descriptive Messages:** Write clear, concise commit messages to describe the changes made.
-- **Pull Regularly:** To minimize conflicts, regularly update your local repository with the latest changes from the main branch.
+1. Clone the repository: `git clone https://github.com/Dicti93/MLSEM.git`
+2. Upload the desired scripts to Google Colab.
+3. Follow the instructions in the notebooks for execution.
+
+Good luck with the seminar!
