@@ -5,34 +5,28 @@ This repository contains the seminar project on appendicitis classification. All
 ## Folder Structure and Contents
 
 ### Seminar Introduction Files
-- **Introduction.ipynb**: Introduction to the seminar.
-- **Seminar_Schedule.pdf**: Seminar schedule.
+- **ML_Seminar_Presenation.pdf**: Introduction Presentation to the seminar.
+- **Seminar_ML_Syllabus2024.pdf**: Seminar Syllabus.
 
 ### Data and Description
 - **data.csv**: Dataset for appendicitis classification.
-- **data_description.xlsx**: Description of the data fields.
+- **Pediatric Appendicitis_ Dataset & Summary.xlsx**: Description of the data fields.
 
 ### Data Preparation
-- **data_cleaning.ipynb**: Script for data cleaning.
-- **feature_engineering.ipynb**: Script for feature engineering.
+- **Data_Prep.ipynb**: This script processes the dataset by cleaning and imputing missing values, converts categorical variables to numeric, visualizes missing data, and prepares the dataset for further analysis or modeling in the context of appendicitis classification.
+- **clean_data.csv**: New cleaned Dataset.
 
 ### EDA (Exploratory Data Analysis)
-- **eda_visualization.ipynb**: Visualizations for data exploration.
-- **correlation_analysis.ipynb**: Correlation analysis of the data.
+- **EDA.ipynb**: This script processes the cleaned dataset by defining feature groups, describes the demographic variables, performs correlation and feature importance analysis, and uses mutual information and PCA for supervised and unsupervised feature selection, respectively, to prepare the data for modeling in the context of appendicitis classification.
 
 ### Modelling
-- **linear_regression.ipynb**: Implementation of linear regression.
-- **decision_tree.ipynb**: Implementation of a decision tree.
-- **random_forest.ipynb**: Implementation of a random forest.
+- **Modelling.ipynb**: This script, defines feature sets, implements machine learning models (Logistic Regression, Naive Bayes, SVM, Random Forest, Gradient Boosting, Neural Network), evaluates these models using cross-validation, and plots the results for comparison in the context of appendicitis classification.
 
 ### CNN (Convolutional Neural Networks)
-- **cnn_intro.ipynb**: Introduction to CNNs.
-- **cnn_model.ipynb**: Implementation of a CNN model.
+- **CNN.ipynb**: This script trains a Convolutional Neural Network (CNN) to diagnose appendicitis by processing sequences of ultrasound images grouped by patient identification numbers.
+- **SimpleCNN.ipynb**: This script trains a Convolutional Neural Network (CNN) to diagnose appendicitis by processing individual ultrasound images independently.
 
 ## Usage Instructions
 
 1. Clone the repository: `git clone https://github.com/Dicti93/MLSEM.git`
-2. Upload the desired scripts to Google Colab.
-3. Follow the instructions in the notebooks for execution.
-
-Good luck with the seminar!
+2. Upload the desired scripts to Google Colab and execute.
